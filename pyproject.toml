@@ -9,7 +9,7 @@ description = "Nonparametric conditional distribution estimation for time series
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [{name = "Ezequiel Boero"}]
+authors = [{name = "Ezequiel Fernando Boero Serra"}]
 dependencies = [
   "numpy>=1.23",
   "matplotlib>=3.7",
