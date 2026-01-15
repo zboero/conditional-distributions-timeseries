@@ -21,3 +21,8 @@ ctsd-nw-multik-par = "ctsd.cli.nw_multik_parallel:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.scripts]
+ctsd-check-npz = "ctsd.cli.check_npz_integrity:main"
+ctsd-nw-multik-par = "ctsd.cli.nw_multik_parallel:main"
+ctsd-plot-multik = "ctsd.cli.plot_multik:main"
