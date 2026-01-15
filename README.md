@@ -32,3 +32,17 @@ ctsd-nw-multik-par \
   --grid_size 600 \
   --cv_points 150 \
   --max_workers 6
+```
+
+## Plot output only
+
+```bash
+ctsd-plot-multik data/outputs/snapshot_nw_multik/WYNN__20240516_20250519__nw_cdf_next_multik.npz
+```
+
+## Plot output + show conditioning context from snapshot
+
+```bash
+ctsd-plot-multik \
+  data/outputs/snapshot_nw_multik/WYNN__20240516_20250519__nw_cdf_next_multik.npz \
+  --snapshot_npz data/return_snapshots/WYNN/3month/20240516_20250519.npz
