@@ -1,1 +1,1 @@
-
+from .nw_multik import compute_snapshot_multik_nw
