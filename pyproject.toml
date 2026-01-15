@@ -1,1 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "ctsd"
+version = "0.1.0"
+description = "Nonparametric conditional distribution estimation for time series snapshots."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ezequiel Boero"}]
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.7",
+]
+
+[project.scripts]
+ctsd-check-npz = "ctsd.cli.check_npz_integrity:main"
+ctsd-nw-multik-par = "ctsd.cli.nw_multik_parallel:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
