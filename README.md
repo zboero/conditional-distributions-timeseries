@@ -14,11 +14,13 @@ From the repo root:
 ```bash
 python -m pip install -U pip
 python -m pip install -e .
+```
 
 ## Integrity check
 
 ```bash
 ctsd-check-npz --glob "data/return_snapshots/*/*/*.npz"
+```
 
 ## Run parallel NW multi-k
 
