@@ -6,7 +6,7 @@ Created on Wed Jan 14 14:11:26 2025
 @author: ezequiel
 
     # Run it as follow...
-    python check_npz_integrity.py
+    python code/check_npz_integrity.py
     
 """
 
