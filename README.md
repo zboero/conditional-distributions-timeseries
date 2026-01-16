@@ -46,3 +46,12 @@ ctsd-plot-multik data/outputs/snapshot_nw_multik/WYNN__20240516_20250519__nw_cdf
 ctsd-plot-multik \
   data/outputs/snapshot_nw_multik/WYNN__20240516_20250519__nw_cdf_next_multik.npz \
   --snapshot_npz data/return_snapshots/WYNN/3month/20240516_20250519.npz
+```
+
+## Statistics
+
+```bash
+ctsd-cdf-stats \
+  --glob "data/outputs/snapshot_nw_multik/**/*.npz" \
+  --recursive \
+  --out_csv "data/outputs/snapshot_nw_multik/cdf_stats.csv"
