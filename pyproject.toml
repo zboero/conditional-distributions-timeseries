@@ -26,3 +26,4 @@ where = ["src"]
 ctsd-check-npz = "ctsd.cli.check_npz_integrity:main"
 ctsd-nw-multik-par = "ctsd.cli.nw_multik_parallel:main"
 ctsd-plot-multik = "ctsd.cli.plot_multik:main"
+ctsd-cdf-stats = "ctsd.cli.cdf_stats:main"
