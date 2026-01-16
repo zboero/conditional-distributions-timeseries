@@ -55,3 +55,9 @@ ctsd-cdf-stats \
   --glob "data/outputs/snapshot_nw_multik/**/*.npz" \
   --recursive \
   --out_csv "data/outputs/snapshot_nw_multik/cdf_stats.csv"
+```
+
+## Post organization of tickers
+
+```bash
+ctsd-organize-by-ticker data/outputs/snapshot_nw_multik
