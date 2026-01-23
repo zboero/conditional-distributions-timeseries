@@ -27,5 +27,6 @@ ctsd-check-npz = "ctsd.cli.check_npz_integrity:main"
 ctsd-nw-multik-par = "ctsd.cli.nw_multik_parallel:main"
 ctsd-plot-multik = "ctsd.cli.plot_multik:main"
 ctsd-cdf-stats = "ctsd.cli.cdf_stats:main"
-ctsd-organize-by-ticker = "ctsd.cli.organize_by_ticker:main"
 ctsd-cdf-features = "ctsd.cli.cdf_features:main"
+ctsd-organize-by-ticker = "ctsd.cli.organize_by_ticker:main"
+
