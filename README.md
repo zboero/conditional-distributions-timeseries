@@ -61,3 +61,15 @@ ctsd-cdf-stats \
 
 ```bash
 ctsd-organize-by-ticker data/outputs/snapshot_nw_multik
+```
+
+## Features extraction
+
+```bash
+ctsd-cdf-features \
+  --glob "data/outputs/snapshot_nw_multik/**/*.npz" \
+  --recursive \
+  --features exhaustive_fast \
+  --tail_thresholds "-2,-1,-0.5,0,0.5,1,2" \
+  --out_csv "data/outputs/snapshot_nw_multik/cdf_features_exhaustive_fast.csv"
+
